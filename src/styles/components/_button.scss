@@ -1,0 +1,38 @@
+.main-button {
+    background: $auqa-green;
+    border: none;
+    border-bottom: 0.3rem solid darken($color: $auqa-green, $amount: 15%);
+    color: $pure-white;
+    font-size: $lg-size;
+    font-weight: 800;
+    margin-bottom: $md-size;
+    padding: $md-size $xl-size;
+    width: 100%;
+}
+
+.main-button:disabled {
+    opacity: 0.5;
+}
+
+.button {
+    background: $auqa-green;
+    border: none;
+    border-bottom: 0.3rem solid darken($color: $auqa-green, $amount: 10%);
+    color: $pure-white;
+    font-weight: 300;
+    padding: $sm-size;
+}
+
+.button--link {
+    background: none;
+    border: none;
+    color: $silver-white;
+    padding: 0;
+}
+
+@media (min-width: $mobile-entry) {
+    .main-button {
+      margin-bottom: $xl-size;
+    }
+  }
+  

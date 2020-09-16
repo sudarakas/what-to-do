@@ -1,0 +1,32 @@
+.add-option {
+  display: flex;
+  flex-direction: column;
+  padding: $sm-size $md-size;
+}
+
+.add-option__input {
+  background: $light-black;
+  border: none;
+  border-bottom: 0.3rem solid darken($color: $mist-black, $amount: 10%);
+  color: $silver-white;
+  flex-grow: 1;
+  margin: 0 0 $sm-size 0;
+  padding: $sm-size;
+}
+
+.add-option-error {
+  color: $ninja-red;
+  font-size: $md-size;
+  font-weight: 700;
+  padding: $esm-size $md-size;
+  text-align: center;
+}
+
+@media (min-width: $mobile-entry) {
+  .add-option {
+    flex-direction: row;
+  }
+  .add-option__input {   
+    margin: 0 $sm-size 0 0;
+  }
+}

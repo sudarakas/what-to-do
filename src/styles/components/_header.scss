@@ -1,0 +1,26 @@
+.header {
+  background: $dark-black;
+  color: $pure-white;
+  margin-bottom: $sm-size;
+  padding: $md-size $sm-size;
+}
+
+.header__title {
+  font-size: $lg-size;
+  margin: 0;
+  font-weight: 700;
+  color: $auqa-green;
+}
+
+.header__subtitle {
+  font-size: $md-size;
+  margin: 0;
+  font-weight: 300;
+  color: $silver-white;
+}
+
+@media (min-width: $mobile-entry) {
+  .header {
+    margin-bottom: $xl-size;
+  }
+}

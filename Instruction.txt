@@ -1,0 +1,13 @@
+# how to run
+- npm i
+- yarn run dev-server
+
+# tech stack
+- react
+- scss
+- html
+- webpack
+- babel
+
+babel src/app.js --out-file=public/scripts/app.js --presets=@babel/preset-env,@babel/preset-react --watch
+live-server public/
