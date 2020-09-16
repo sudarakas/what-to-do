@@ -26,4 +26,8 @@ $ yarn add
 $ yarn run dev-server
 ```
 
+### Screenshot
+
+![App](https://i.ibb.co/db0PB6Y/Screenshot-132.png)
+
 
