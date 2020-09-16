@@ -2,6 +2,7 @@ import React from 'react';
 
 import AddOption from './AddOption';
 import { Header } from './Header';
+import { Footer } from './Footer';
 import { Action } from './Action';
 import { Options } from './Options';
 import OptionModal from './OptionModal';
@@ -106,6 +107,10 @@ export default class WhatToDoApp extends React.Component {
                         handleCloseModal={this.handleCloseModal}
                     />
                 </div>
+                <Footer
+                    title={title}
+                    subtitle={subtitle}
+                />
             </div>
         )
     }
