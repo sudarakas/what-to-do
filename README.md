@@ -1,7 +1,6 @@
 # What To Do
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-http://sudaraka.tech/what-to-do/
 What-To-Do is a web-enabled, mobile-ready, offline-storage, ReactJs powered task tracking app.
 
   - Save your task
@@ -25,6 +24,10 @@ $ cd what-to-do
 $ yarn add
 $ yarn run dev-server
 ```
+
+### Demo
+
+- http://sudaraka.tech/what-to-do/
 
 ### Screenshot
 
